@@ -1,13 +1,15 @@
-import Link from "next/link";
+import Image from "next/image";
 export default function Navbar() {
   return (
     <div className="flex flex-col justify-center">
       <nav className=" px-4 flex justify-center items-center flex-row w-full text-white font-bold bg-gray-950">
         <div className="mb-4 sm:mb-0">
-          <img
+          <Image
             className=" px-3 py-5 h-auto w-56 text-lg sm:text-xl md:text-2xl lg:text-2xl"
             src="/PakWheels-Blue-Tagline-Logo.png"
             alt="logo"
+            width={40}
+          height={40}
           />
         </div>
 
