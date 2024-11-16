@@ -23,7 +23,7 @@ export default function DetailOne() {
           you on track and adaptive cruise control for a more relaxed driving
           experience. The car also offers easy phone connectivity with Apple
           CarPlay and Android Auto, ensuring you stay connected while on the go.
-          Inside, you'll find a spacious and user-friendly cabin with modern
+          Inside, you&apos;ll find a spacious and user-friendly cabin with modern
           technology, while the sleek exterior adds a touch of elegance.
           Affordable, reliable, and packed with features, the Corolla is a top
           choice for anyone looking for a practical and stylish vehicle.
