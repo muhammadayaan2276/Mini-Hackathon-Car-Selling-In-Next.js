@@ -1,17 +1,20 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function DetailFour() {
   return (
     <div className="bg-blue-100 min-h-screen">
-      <h1 className="text-4xl font-bold text-red-700 mx-20 underline text-nowrap py-16">
+      <h1 className="text-4xl font-bold text-red-700 mx-20 underline py-16">
         Toyota Yaris 2024 Price in Pakistan, Images, Reviews & Specs
       </h1>
       <div className="flex flex-col items-center px-2 h-full w-full">
-        <Link href="/DetailFour" passHref>
+        <Link href="/DetailFour">
           <div className="w-full h-80 border-4 border-gray-400 rounded-lg bg-blue-200 p-1">
-            <img
+            <Image
               src="https://cache4.pakwheels.com/system/car_generation_pictures/7721/original/Yaris.png?1716536903"
               alt="Toyota Yaris"
+              width={640} // Define width and height
+              height={480}
               className="cursor-pointer w-full h-full rounded-md"
             />
           </div>
@@ -32,12 +35,12 @@ export default function DetailFour() {
           PKR 63.2 lacs
         </h2>
         <div className="flex flex-row items-center py-11 space-x-4">
-          <Link href="/Form" passHref>
-            <button className="bg-blue-700 text-white w-44 h-12 rounded-md tex hover:bg-purple-900">
+          <Link href="/Form">
+            <button className="bg-blue-700 text-white w-44 h-12 rounded-md hover:bg-purple-900">
               Make Payment
             </button>
           </Link>
-          <Link href="/" passHref>
+          <Link href="/">
             <button className="bg-red-500 hover:bg-red-700 text-white w-44 h-12 rounded-md ">
               Go Back
             </button>
