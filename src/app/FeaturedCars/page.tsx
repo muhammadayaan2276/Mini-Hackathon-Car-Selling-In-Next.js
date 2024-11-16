@@ -42,6 +42,8 @@ export default function FeaturedCars() {
             <Image
               src="https://cache1.pakwheels.com/system/car_generation_pictures/5361/original/Corolla-X-Cars-Cropped-Pictures-for-Website.jpg?1606903674"
               alt="Toyota Corolla"
+              width={500}
+              height={300}
               className="cursor-pointer pb-4 w-72 h-64"
             />
             <h2 className="text-center font-bold text-2xl text-blue-800 hover:text-blue-600">
@@ -61,6 +63,8 @@ export default function FeaturedCars() {
             <Image
               src="https://cache2.pakwheels.com/system/car_generation_pictures/6008/original/Land_Cruiser_300_-_PNG.png?1635484577"
               alt="Toyota Land Cruiser"
+              width={500}
+              height={300}
               className="cursor-pointer pb-4 w-72 h-64"
             />
             <h2 className="text-center font-bold text-2xl text-blue-800 hover:text-blue-600">
@@ -80,6 +84,8 @@ export default function FeaturedCars() {
             <Image
               src="https://cache3.pakwheels.com/system/car_generation_pictures/6013/original/Suzuki_Alto_-_PNG.png?1635945100"
               alt="Suzuki Alto"
+              width={500}
+              height={300}
               className="cursor-pointer pb-4 w-72 h-64"
             />
             <h2 className="text-center font-bold text-2xl text-blue-800 hover:text-blue-600">
@@ -99,6 +105,8 @@ export default function FeaturedCars() {
             <Image
               src="https://cache4.pakwheels.com/system/car_generation_pictures/7721/original/Yaris.png?1716536903"
               alt="Toyota Yaris"
+              width={500}
+              height={300}
               className="cursor-pointer pb-4 w-72 h-64"
             />
             <h2 className="text-center font-bold text-2xl text-blue-800 hover:text-blue-600">
