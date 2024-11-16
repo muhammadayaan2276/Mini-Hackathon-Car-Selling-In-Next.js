@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function DetailThree() {
   return (
@@ -9,10 +10,12 @@ export default function DetailThree() {
       <div className="flex flex-col items-center px-2 h-full w-full">
         <Link href="/DetailThree" passHref>
           <div className="w-full h-80 border-4 border-gray-400 rounded-lg bg-blue-200 p-1">
-            <img
+            <Image
               src="https://cache3.pakwheels.com/system/car_generation_pictures/6013/original/Suzuki_Alto_-_PNG.png?1635945100"
               alt="Suzuki Alto"
               className="cursor-pointer w-full h-full rounded-md"
+              width={800}
+              height={400}
             />
           </div>
         </Link>
@@ -22,11 +25,11 @@ export default function DetailThree() {
           It comes with basic safety features like airbags and stability control
           to help keep you safe on the road. The vehicle also offers easy phone
           connectivity with Bluetooth, ensuring you stay connected while on the
-          go. Inside, you'll find a comfortable cabin with essential features
-          and an easy-to-use dashboard,while the compact exterior makes it ideal
-          for tight parking spaces.Reliable,economical, and full of value, the
+          go. Inside, you&apos;ll find a comfortable cabin with essential features
+          and an easy-to-use dashboard, while the compact exterior makes it ideal
+          for tight parking spaces. Reliable, economical, and full of value, the
           Alto is a great choice for anyone looking for a practical and
-          budget-friendly car.The Suzuki Alto 2024 also boasts excellent fuel
+          budget-friendly car. The Suzuki Alto 2024 also boasts excellent fuel
           efficiency, making it an economical choice for both daily commutes and
           longer drives.
         </p>
@@ -40,7 +43,7 @@ export default function DetailThree() {
             </button>
           </Link>
           <Link href="/" passHref>
-            <button className="bg-red-500 hover:bg-red-700 text-white w-44 h-12 rounded-md ">
+            <button className="bg-red-500 hover:bg-red-700 text-white w-44 h-12 rounded-md">
               Go Back
             </button>
           </Link>
