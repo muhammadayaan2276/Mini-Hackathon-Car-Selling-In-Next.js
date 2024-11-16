@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function DetailTwo() {
   return (
@@ -9,10 +10,12 @@ export default function DetailTwo() {
       <div className="flex flex-col items-center px-2 h-full w-full">
         <Link href="/DetailTwo" passHref>
           <div className="w-full h-80 border-4 border-gray-400 rounded-lg bg-blue-200 p-1">
-            <img
+            <Image
               src="https://cache2.pakwheels.com/system/car_generation_pictures/6008/original/Land_Cruiser_300_-_PNG.png?1635484577"
               alt="Land Cruiser"
               className="cursor-pointer w-full h-full rounded-md"
+              width={800}
+              height={400}
             />
           </div>
         </Link>
@@ -23,7 +26,7 @@ export default function DetailTwo() {
           assistance to help keep you on track and adaptive cruise control for a
           more comfortable driving experience. The vehicle also offers easy
           phone connectivity with Apple CarPlay and Android Auto, keeping you
-          connected while on the go. Inside, you'll find a spacious and premium
+          connected while on the go. Inside, you&apos;ll find a spacious and premium
           cabin with high-end technology, while the bold exterior adds a sense
           of strength and elegance. Reliable, capable, and packed with features,
           the Land Cruiser is a top choice for those seeking an adventurous yet
