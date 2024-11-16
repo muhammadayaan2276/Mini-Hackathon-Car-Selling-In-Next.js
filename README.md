@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+In this Mini-Hackathon project titled "Car Selling in Next.js", we have developed a car-selling website inspired by PakWheels. The website includes the following features:
 
-First, run the development server:
+Footer and Navbar with PakWheels Logo:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A professional footer and navbar that feature the PakWheels logo, giving the website a polished and branded appearance.
+Hero Section:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+An engaging hero section designed to grab the user's attention upon visiting the website.
+Featured Cars Section:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This section displays images of cars along with brief details.
+Each car links to a dedicated Details Page.
+The headings in the Featured Cars Section are static.
+Details Page for Each Car:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Each car has a detailed description page where users can view its specifications and features.
+A Make Payment button is available, which redirects users to the form page.
+Form Page for Placing Orders:
 
-## Learn More
+Users can fill in their details on the form to place an order.
+After submitting the form, a "Thank You for Shopping" message is displayed, indicating that the order is being processed.
+Users are informed that the order will arrive within 2–3 days.
+Static Headings in Navbar and Featured Cars Section:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+All other headings in the Navbar and Featured Cars Section are static.
