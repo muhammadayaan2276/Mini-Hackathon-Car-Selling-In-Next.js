@@ -39,7 +39,7 @@ export default function FeaturedCars() {
         {/* Car 1: Toyota Corolla */}
         <div className="flex flex-col items-center px-2 h-96 w-72">
           <Link href="/DetailOne" passHref>
-            <img
+            <Image
               src="https://cache1.pakwheels.com/system/car_generation_pictures/5361/original/Corolla-X-Cars-Cropped-Pictures-for-Website.jpg?1606903674"
               alt="Toyota Corolla"
               className="cursor-pointer pb-4 w-72 h-64"
@@ -58,7 +58,7 @@ export default function FeaturedCars() {
         {/* Car 2: Toyota Land Cruiser */}
         <div className="flex flex-col items-center px-2 h-96 w-72">
           <Link href="/DetailTwo" passHref>
-            <img
+            <Image
               src="https://cache2.pakwheels.com/system/car_generation_pictures/6008/original/Land_Cruiser_300_-_PNG.png?1635484577"
               alt="Toyota Land Cruiser"
               className="cursor-pointer pb-4 w-72 h-64"
@@ -77,7 +77,7 @@ export default function FeaturedCars() {
         {/* Car 3: Suzuki Alto */}
         <div className="flex flex-col items-center px-2 h-96 w-72">
           <Link href="/DetailThree" passHref>
-            <img
+            <Image
               src="https://cache3.pakwheels.com/system/car_generation_pictures/6013/original/Suzuki_Alto_-_PNG.png?1635945100"
               alt="Suzuki Alto"
               className="cursor-pointer pb-4 w-72 h-64"
@@ -96,7 +96,7 @@ export default function FeaturedCars() {
         {/* Car 4: Toyota Yaris */}
         <div className="flex flex-col items-center px-2 h-96 w-72">
           <Link href="/DetailFour" passHref>
-            <img
+            <Image
               src="https://cache4.pakwheels.com/system/car_generation_pictures/7721/original/Yaris.png?1716536903"
               alt="Toyota Yaris"
               className="cursor-pointer pb-4 w-72 h-64"
