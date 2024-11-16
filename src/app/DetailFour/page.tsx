@@ -22,7 +22,7 @@ export default function DetailFour() {
           trips. It comes with advanced safety features like pre-collision
           warning and lane assist to help keep you safe on the road. The vehicle
           also offers easy phone connectivity with Apple CarPlay and Android
-          Auto, so you can stay connected while driving. Inside,you'll find a
+          Auto, so you can stay connected while driving. Inside, you&apos;ll find a
           comfortable cabin with modern features and an intuitive dashboard,
           while the sleek exterior gives it a bold, dynamic look. Reliable,
           efficient, and packed with features, the Yaris is a great choice for
