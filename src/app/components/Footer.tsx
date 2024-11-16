@@ -1,5 +1,5 @@
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -42,17 +42,17 @@ export default function Footer() {
 
         {/* Navigation Links */}
         <nav className="flex flex-wrap justify-center space-x-4 text-md">
-          <Link href="/about">
-            <a className="hover:underline">About Us</a>
+          <Link href="/about" className="hover:underline">
+            About Us
           </Link>
-          <Link href="/services">
-            <a className="hover:underline">Services</a>
+          <Link href="/services" className="hover:underline">
+            Services
           </Link>
-          <Link href="/contact">
-            <a className="hover:underline">Contact</a>
+          <Link href="/contact" className="hover:underline">
+            Contact
           </Link>
-          <Link href="/privacy-policy">
-            <a className="hover:underline">Privacy Policy</a>
+          <Link href="/privacy-policy" className="hover:underline">
+            Privacy Policy
           </Link>
         </nav>
 
