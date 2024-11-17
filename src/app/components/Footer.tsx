@@ -40,20 +40,20 @@ export default function Footer() {
           </a>
         </div>
 
-        {/* Navigation Links */}
         <nav className="flex flex-wrap justify-center space-x-4 text-md">
-          <Link href="/about" className="hover:underline">
+          <div className="hover:underline">
             About Us
-          </Link>
-          <Link href="/services" className="hover:underline">
+          </div>
+          <div
+          className="hover:underline">
             Services
-          </Link>
-          <Link href="/contact" className="hover:underline">
+          </div>
+          <div className="hover:underline">
             Contact
-          </Link>
-          <Link href="/privacy-policy" className="hover:underline">
+          </div>
+          <div className="hover:underline">
             Privacy Policy
-          </Link>
+          </div>
         </nav>
 
         {/* Footer Text */}
