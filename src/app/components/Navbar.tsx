@@ -3,10 +3,10 @@ export default function Navbar() {
   return (
     <div className="flex flex-col justify-center">
       <nav className=" px-4 flex justify-center items-center flex-row w-full text-white font-bold bg-gray-950">
-        <div className="mb-4 sm:mb-0">
+      <div className="mb-4 sm:mb-0">
   <Image
     className="px-3 py-5 h-auto w-56 text-lg sm:text-xl md:text-2xl lg:text-2xl"
-    src="/C:\Users\pc\Downloads\PakWheels-Blue-Tagline-Logo.svg"
+    src="https://wsa1.pakwheels.com/assets/new-pw-logo-white-c4cd16ae34613cc1fa16d7840f34a71e.svg"
     alt="Logo"
     width={40}
     height={40}
