@@ -3,15 +3,15 @@ export default function Navbar() {
   return (
     <div className="flex flex-col justify-center">
       <nav className=" px-4 flex justify-center items-center flex-row w-full text-white font-bold bg-gray-950">
-        <div className="mb-4 sm:mb-0">
-          <Image
-            className=" px-3 py-5 h-auto w-56 text-lg sm:text-xl md:text-2xl lg:text-2xl"
-            src="/PakWheels-Blue-Tagline-Logo.png"
-            alt="logo"
-            width={40}
-          height={40}
-          />
-        </div>
+      <div className="mb-4 sm:mb-0">
+  <Image
+    className="px-3 py-5 h-auto w-56 text-lg sm:text-xl md:text-2xl lg:text-2xl"
+    src="/PakWheels-Blue-Tagline-Logo.png" 
+    alt="logo"
+    width={40}
+    height={40}
+  />
+</div>
 
         <div className="w-full sm:w-auto mb-4 sm:mb-0">
           <ul className="flex flex-row ">
