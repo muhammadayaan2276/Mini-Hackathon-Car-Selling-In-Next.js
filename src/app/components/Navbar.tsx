@@ -10,7 +10,6 @@ export default function Navbar() {
     alt="logo"
     width={40}
     height={40}
-    layout="intrinsic"
   />
 </div>
 
